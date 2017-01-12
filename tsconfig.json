@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "umd",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "strictNullChecks": true,
+        "sourceMap": true,
+        "declaration": true,
+        "target": "es5",
+        "outDir": "build/"
+    },
+    "include": [
+        "src/**/*.ts"
+    ]
+}
