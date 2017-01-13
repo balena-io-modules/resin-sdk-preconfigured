@@ -5,6 +5,5 @@ export = getSdk({
 	apiUrl: settings.get('apiUrl'),
 	imageMakerUrl: settings.get('imageMakerUrl'),
 	dataDirectory: settings.get('dataDirectory'),
-	apiVersion: 'v2',
-	retries: 2,
+	retries: 2
 });
