@@ -1,6 +1,6 @@
 {
   "name": "resin-sdk-preconfigured",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Preconfigured instance of resin-sdk",
   "main": "build/index.js",
   "types": "build/index.d.ts",
