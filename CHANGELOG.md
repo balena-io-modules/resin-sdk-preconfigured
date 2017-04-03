@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+### Changed
+
+- Update to SDK beta8
+
 # [0.1.1] - 2017-03-23
 
 ### Changed
