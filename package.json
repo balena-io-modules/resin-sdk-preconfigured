@@ -1,6 +1,6 @@
 {
   "name": "resin-sdk-preconfigured",
-  "version": "0.1.2",
+  "version": "6.0.0",
   "description": "Preconfigured instance of resin-sdk",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/resin-io-modules/resin-sdk-preconfigured#readme",
   "dependencies": {
-    "resin-sdk": "^6.0.0-beta8",
+    "resin-sdk": "^6.0.0",
     "resin-settings-client": "^3.5.2"
   }
 }
