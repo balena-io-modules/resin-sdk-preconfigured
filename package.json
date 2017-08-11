@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/resin-io-modules/resin-sdk-preconfigured#readme",
   "dependencies": {
-    "resin-sdk": "^6.4.1",
+    "resin-sdk": "^6.9.0",
     "resin-settings-client": "^3.6.1"
   }
 }
