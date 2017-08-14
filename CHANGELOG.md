@@ -3,6 +3,9 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+# [6.9.0] - 2017-08-18
+- Update to SDK ^6.9.0
+
 # [6.4.1] - 2017-06-09
 - Update to SDK ^6.4.1
 
