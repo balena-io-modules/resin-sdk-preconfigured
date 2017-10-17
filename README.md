@@ -4,6 +4,22 @@ Preconfigured Resin SDK
 [![Build Status](https://travis-ci.org/resin-io-modules/resin-sdk-preconfigured.svg?branch=master)](https://travis-ci.org/resin-io-modules/resin-sdk-preconfigured)
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/resin-io/chat)
 
+## DEPRECATED
+
+This module is deprecated. To share a SDK throughout an application, or build a module that uses the SDK, you should depend on the SDK directly, and use [`resinSdk.setSharedOptions`](https://github.com/resin-io/resin-sdk/blob/master/DOCUMENTATION.md#resin.setSharedOptions) and [`resinSdk.fromSharedOptions`](https://github.com/resin-io/resin-sdk/blob/master/DOCUMENTATION.md#resin.fromSharedOptions):
+
+```js
+// In your top-level app code, before modules are loaded:
+require('resin-sdk').setSharedOptions({
+  // Whatever options you'd like, see https://github.com/resin-io/resin-sdk#documentation
+});
+
+// In your modules, to get an SDK instance using app-wide settings:
+const resin = require('resin-sdk').fromSharedOptions();
+```
+
+---
+
 Role
 ----
 
